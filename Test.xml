@@ -1,0 +1,67 @@
+<test-cases>
+	<cases xmlns:java="http://java.sun.com"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testaddUser</name>
+		<weight>2</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+	<cases xmlns:java="http://java.sun.com"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testeditUser</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+	<cases xmlns:java="http://java.sun.com"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Exception</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>InvalidMapSkillException</name>
+		<weight>2</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+
+	<cases xmlns:java="http://java.sun.com"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Exception</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>InvalidUserIdException</name>
+		<weight>1</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+	<cases xmlns:java="http://java.sun.com"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>false</expected-ouput>
+		<name>testFirstNameLength</name>
+		<weight>1</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+
+	<cases xmlns:java="http://java.sun.com"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testLastNameLength</name>
+		<weight>1</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+
+
+
+</test-cases>
